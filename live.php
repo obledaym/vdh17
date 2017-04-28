@@ -93,7 +93,7 @@ $.get( 'http://vdh.crichard.fr/api/users', function(data) { //faisCeQueTuEnVeux 
                     <ul class="sub-menu">
                         <li><a href="live-gestion_dossard.php?type=4">Nom</a></li>
 						<li><a href="live_gestion_dossard.php?type=5">Mail</a></li>
-						<li><a href="live_dossard.php?type=6">Short-tag</a></li>
+						<li><a href="live_gestion_dossard.php?type=6">Short-tag</a></li>
                     </ul>
                 </li>
             </ul>
@@ -102,9 +102,9 @@ $.get( 'http://vdh.crichard.fr/api/users', function(data) { //faisCeQueTuEnVeux 
             <a href="#">STANDS</a>
             <ul class="sub-menu">
                 <li><a href="stand.php">STAND 1</a></li>
-				<li><a href="trezo.php?type=1">STAND 2</a></li>
-				<li><a href="trezo.php?type=1">STAND 3</a></li>
-				<li><a href="trezo.php?type=1">ARRIVÉE</a></li>
+				<li><a href="stand.php?type=1">STAND 2</a></li>
+				<li><a href="stand.php?type=1">STAND 3</a></li>
+				<li><a href="stand.php?type=1">ARRIVÉE</a></li>
                 <!--<li class="dropdown">
                     <a href="#">Par type</a>
                     <ul class="sub-menu">
